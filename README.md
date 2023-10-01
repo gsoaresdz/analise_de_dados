@@ -1,24 +1,30 @@
-# **Análise de Empresa Prestadora de Serviços**
+# Análise de Empresa Prestadora de Serviços
 
 Este repositório contém um script em Python para analisar os dados de uma empresa prestadora de serviços. A análise abrange informações sobre funcionários, clientes e serviços prestados. O código utiliza bibliotecas como Pandas para manipulação de dados e extração de insights.
 
-## **Dependências**
-
+## Dependências
+- Python
 - Pandas
 
-## **Como utilizar**
+## Como Instalar
 
 1. Clone o repositório.
-2. Verifique se possui as dependências necessárias instaladas (Pandas).
-3. Execute o script **`main.ipynb`** no seu terminal ou IDE de preferência.
+2. Instale as dependências utilizando o seguinte comando:
+```shell
+pip install pandas
+```
+3. Abra e execute o notebook `main.ipynb` utilizando uma IDE que suporte notebooks Jupyter, como o Jupyter Notebook ou o Jupyter Lab.
 
-## **Arquivos**
+## Como Utilizar
+1. Após a instalação das dependências, abra o notebook `main.ipynb` em sua IDE preferida.
+2. Execute todas as células do notebook para visualizar os resultados das análises.
 
-- CadastroFuncionarios.csv: Arquivo CSV contendo informações sobre os funcionários da empresa.
-- CadastroClientes.csv: Arquivo CSV contendo informações sobre os clientes da empresa.
-- BaseServiçosPrestados.xlsx: Arquivo Excel contendo informações sobre os serviços prestados pela empresa.
+## Arquivos
+- `CadastroFuncionarios.csv`: Contém informações sobre os funcionários da empresa.
+- `CadastroClientes.csv`: Contém informações sobre os clientes da empresa.
+- `BaseServiçosPrestados.xlsx`: Contém informações sobre os serviços prestados pela empresa.
 
-## **Análises Realizadas**
+## Análises Realizadas
 
 1. **Folha Salarial**: Calcula a folha salarial mensal total da empresa.
 2. **Faturamento da Empresa**: Calcula o faturamento total da empresa.
@@ -27,7 +33,7 @@ Este repositório contém um script em Python para analisar os dados de uma empr
 5. **Funcionários por Área**: Mostra a quantidade de funcionários por área da empresa.
 6. **Ticket Médio Mensal**: Calcula o ticket médio mensal dos contratos da empresa.
 
-## **Exemplo de saída**
+## Exemplo de saída
 
 Ao executar o script, você verá informações como:
 
