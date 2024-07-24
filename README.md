@@ -1,47 +1,118 @@
-# Análise de Empresa Prestadora de Serviços
+<h1 align="center">Prestadora de Serviços</h1>
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/prestadora-de-servicos?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/prestadora-de-servicos?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/prestadora-de-servicos?color=56BEB8">
+</p>
+<p align="center">
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-análises-realizadas">Análises Realizadas</a> &#xa0; | &#xa0;
+  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-execução">Execução</a> &#xa0; | &#xa0;
+  <a href="#memo-estrutura-dos-dados">Estrutura dos Dados</a> &#xa0; | &#xa0;
+  <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
+  <a href="https://github.com/gsoaresdz" target="_blank">Autor</a>
+</p>
+<br>
 
-Este repositório contém um script em Python para analisar os dados de uma empresa prestadora de serviços. A análise abrange informações sobre funcionários, clientes e serviços prestados. O código utiliza bibliotecas como Pandas para manipulação de dados e extração de insights.
+## **:dart: Sobre**
 
-## Dependências
-- Python
-- Pandas
+Este repositório contém um projeto que analisa dados de uma prestadora de serviços. O objetivo é explorar e visualizar informações sobre serviços prestados, clientes e funcionários, proporcionando uma visão abrangente do negócio.
 
-## Como Instalar
+## **:sparkles: Análises Realizadas**
 
-1. Clone o repositório.
-2. Instale as dependências utilizando o seguinte comando:
-```shell
-pip install pandas
+:heavy_check_mark: **Análise 1**: Distribuição dos serviços prestados por categoria
+
+:heavy_check_mark: **Análise 2**: Receita total por mês e ano
+
+:heavy_check_mark: **Análise 3**: Desempenho dos funcionários com base nos serviços prestados
+
+:heavy_check_mark: **Análise 4**: Análise demográfica dos clientes
+
+## **:rocket: Tecnologias**
+
+As seguintes ferramentas foram usadas neste projeto:
+
+- [Python](https://www.python.org/)
+- [Jupyter Notebook](https://jupyter.org/)
+- [Pandas](https://pandas.pydata.org/)
+- [Matplotlib](https://matplotlib.org/)
+- Seaborn
+
+## **:white_check_mark: Requerimentos**
+
+Antes de iniciar :checkered_flag:, você precisa ter [Python 3](https://www.python.org/downloads/) instalado.
+
+## **:checkered_flag: Execução**
+
+### Clonando o Repositório
+
+Primeiramente, clone o repositório do projeto para sua máquina local.
+
+```bash
+$ git clone https://github.com/gsoaresdz/prestadora-de-servicos.git
 ```
-3. Abra e execute o notebook `main.ipynb` utilizando uma IDE que suporte notebooks Jupyter, como o Jupyter Notebook ou o Jupyter Lab.
 
-## Como Utilizar
-1. Após a instalação das dependências, abra o notebook `main.ipynb` em sua IDE preferida.
-2. Execute todas as células do notebook para visualizar os resultados das análises.
+### Instalação das Dependências
 
-## Arquivos
-- `CadastroFuncionarios.csv`: Contém informações sobre os funcionários da empresa.
-- `CadastroClientes.csv`: Contém informações sobre os clientes da empresa.
-- `BaseServiçosPrestados.xlsx`: Contém informações sobre os serviços prestados pela empresa.
+Para instalar as dependências do projeto, execute o seguinte comando no terminal:
 
-## Análises Realizadas
+```bash
+$ pip install pandas matplotlib seaborn jupyter
+```
 
-1. **Folha Salarial**: Calcula a folha salarial mensal total da empresa.
-2. **Faturamento da Empresa**: Calcula o faturamento total da empresa.
-3. **% Funcionários Fecharam Contrato**: Calcula a porcentagem de funcionários que fecharam contratos.
-4. **Quantidade de Contratos por Área**: Calcula a quantidade de contratos realizados por área da empresa.
-5. **Funcionários por Área**: Mostra a quantidade de funcionários por área da empresa.
-6. **Ticket Médio Mensal**: Calcula o ticket médio mensal dos contratos da empresa.
+### Usando Jupyter Notebook
 
-## Exemplo de saída
+1. Certifique-se de ter o Python 3 instalado no seu sistema.
+2. Instale o Jupyter Notebook:
+    
+    ```bash
+    pip install jupyter
+    ```
+    
+3. Navegue até o diretório do projeto e inicie o Jupyter Notebook:
+    
+    ```bash
+    jupyter notebook
+    ```
+    
+4. Abra o arquivo **`main.ipynb`** e execute as células de código para ver as análises e gráficos.
 
-Ao executar o script, você verá informações como:
+## **:memo: Estrutura dos Dados**
 
-- Total de Folha Salarial Mensal
-- Faturamento total da Empresa
-- Percentual de Funcionários que fecharam contratos
-- Quantidade de contratos por área
-- Quantidade de funcionários por área
-- Ticket Médio Mensal
+Os dados estão estruturados nas seguintes colunas:
 
-Os resultados são exibidos no console.
+### **BaseServiçosPrestados.xlsx**
+
+- Serviço
+- Categoria
+- Data
+- Valor
+- Cliente_ID
+- Funcionario_ID
+
+### **CadastroClientes.csv**
+
+- Cliente_ID
+- Nome
+- Idade
+- Gênero
+- Cidade
+
+### **CadastroFuncionarios.csv**
+
+- Funcionario_ID
+- Nome
+- Cargo
+- Data_Admissão
+
+## **:memo: Licença**
+
+Este projeto está sob licença do MIT. Para obter mais detalhes, consulte o arquivo [LICENSE](LICENSE).
+
+Feito com :heart: by <a href="https://github.com/gsoaresdz" target="_blank">gsoaresdz</a>
+
+&#xa0;
+
+<a href="#top">De volta ao topo</a>
