@@ -38,7 +38,7 @@ The following tools were used in this project:
 - [Jupyter Notebook](https://jupyter.org/)
 - [Pandas](https://pandas.pydata.org/)
 - [Matplotlib](https://matplotlib.org/)
-- Seaborn
+- [Seaborn](https://seaborn.pydata.org/)
 
 ## **:white_check_mark: Requirements**
 
